@@ -238,8 +238,7 @@ void writeToBinFile(const char* fileName, Student* students, int numberOfStudent
 	}
 
 }
-//maybe it would be better to define the 35 as parameter in the program
-//so in the future if we want to change it we will change just at define row.
+
 Student* readFromBinFile(const char* fileName)
 {
 	if (fileName != NULL) {
