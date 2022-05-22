@@ -185,6 +185,7 @@ void factorGivenCourse(char** const* students, const int* coursesPerStudent, int
 
 void printStudentArray(const char* const* const* students, const int* coursesPerStudent, int numberOfStudents)
 {
+	
 	for (int i = 0; i < numberOfStudents; i++)
 	{
 		printf("name: %s\n*********\n", students[i][0]);
